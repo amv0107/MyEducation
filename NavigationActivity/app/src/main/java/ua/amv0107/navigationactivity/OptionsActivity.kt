@@ -37,6 +37,18 @@ class OptionsActivity : BaseActivity() {
         outState.putParcelable(KEY_OPTIONS, options)
     }
 
+//    val adapterCourses = ArrayAdapter<CourseInfo>(
+//        context = this,
+//        android.R.layout.simple_spinner_item,
+//        dm.courses.values.toList()
+//    )
+
+
+//    val adapterCourses = ArrayAdapter<CourseInfo>(
+//        this,
+//        android.R.layout.simple_spinner_item,
+//        dm.courses.values.toList())
+
     private fun setupSpinner() {
         boxCountItems = (1..6).map { BoxCountItem(it, resources.getQuantityString(R.plurals.boxes, it, it)) }
         adapter = ArrayAdapter(
