@@ -11,7 +11,7 @@
    - minSdk 28
     - Ничего не понял
 7. [SharedPreferences](/SharedPreferences) - [SharedPreferences](https://www.youtube.com/watch?v=7QSlZaNrXbs&list=PLRmiL0mct8WnodKkGLpBN0mfXIbAAX-Ux&index=17)
-8. []() - [Создание своей View, часть 1 (создание View путём компоновки нескольких существующих View)](https://www.youtube.com/watch?v=U2bxEOqf6f0&list=PLRmiL0mct8WnodKkGLpBN0mfXIbAAX-Ux&index=18)
+8. [CustomViews](/CustomViews) - [Создание своей View, часть 1 (создание View путём компоновки нескольких существующих View)](https://www.youtube.com/watch?v=U2bxEOqf6f0&list=PLRmiL0mct8WnodKkGLpBN0mfXIbAAX-Ux&index=18)
 9. []() - [Создание своей View, часть 2 (создание View с нуля)](https://www.youtube.com/watch?v=e3VlpFr_J6I&list=PLRmiL0mct8WnodKkGLpBN0mfXIbAAX-Ux&index=19)
 10. []() - [Основы RecyclerView](https://www.youtube.com/watch?v=WMVzidyoQag&list=PLRmiL0mct8WnodKkGLpBN0mfXIbAAX-Ux&index=20)
 11. []() - []()
