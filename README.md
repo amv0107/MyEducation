@@ -14,7 +14,7 @@
 8. [CustomViews](/CustomViews) - [Создание своей View, часть 1 (создание View путём компоновки нескольких существующих View)](https://www.youtube.com/watch?v=U2bxEOqf6f0&list=PLRmiL0mct8WnodKkGLpBN0mfXIbAAX-Ux&index=18)
 9. [CustomView2](/CustomView2) - [Создание своей View, часть 2 (создание View с нуля)](https://www.youtube.com/watch?v=e3VlpFr_J6I&list=PLRmiL0mct8WnodKkGLpBN0mfXIbAAX-Ux&index=19) - Не прошел 
 10. [RecyclerView](/RecyclerView) - [Основы RecyclerView](https://www.youtube.com/watch?v=WMVzidyoQag&list=PLRmiL0mct8WnodKkGLpBN0mfXIbAAX-Ux&index=20)
-11. []() - []()
+11. [RecyclerView](/RecyclerView) - [Использование RecyclerView вместе с DiffUtil](https://www.youtube.com/watch?v=zFOlpuz9lqY&list=PLRmiL0mct8WnodKkGLpBN0mfXIbAAX-Ux&index=21)
 12. []() - []()
 13. []() - []()
 14. []() - []()
