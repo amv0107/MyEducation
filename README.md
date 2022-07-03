@@ -2,7 +2,8 @@
 
 ## [Roman Andrushchenko](https://www.youtube.com/c/RomanAndrushchenko)
 
-1. []() - [ListView и Spinner](https://www.youtube.com/watch?v=odvuDNhlh9U&list=PLRmiL0mct8WnodKkGLpBN0mfXIbAAX-Ux&index=10)
+### Main
+1. [ListViewAndSpinner](/ListViewAndSpinner) - [ListView и Spinner](https://www.youtube.com/watch?v=odvuDNhlh9U&list=PLRmiL0mct8WnodKkGLpBN0mfXIbAAX-Ux&index=10)
 2. [NavigationActivity](/NavigationActivity) - [Навигация на базе Activity](https://www.youtube.com/watch?v=Q7ZZOIvQCFA&list=PLRmiL0mct8WnodKkGLpBN0mfXIbAAX-Ux&index=11)
 3. [NavigationFragment](/NavigationFragment) - [Фрагменты (Fragments), навигация на базе фрагментов](https://www.youtube.com/watch?v=ETDEKTD3nzs&list=PLRmiL0mct8WnodKkGLpBN0mfXIbAAX-Ux&index=12)
 4. [FragmentsLifecycle](/FragmentsLifecycle) - [Жизненный цикл фрагмента](https://www.youtube.com/watch?v=DDUBFDlId68&list=PLRmiL0mct8WnodKkGLpBN0mfXIbAAX-Ux&index=13)
@@ -25,3 +26,6 @@
 19. []() - []()
 20. []() - []()
 21. []() - []()
+
+### Вопрос-ответ
+1. [FragmentFromListView](/FragmentFromListView) - [Как запустить фрагмент с деталями элемента списка](https://www.youtube.com/watch?v=j1e-LAVRQEw&t=62s)
