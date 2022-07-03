@@ -29,3 +29,7 @@
 
 ### Вопрос-ответ
 1. [FragmentFromListView](/FragmentFromListView) - [Как запустить фрагмент с деталями элемента списка](https://www.youtube.com/watch?v=j1e-LAVRQEw&t=62s)
+2. []() - [Загрузка/кеширование/отображение изображений в Android с помощью Glide](https://www.youtube.com/watch?v=sZRnrOG2jMs)
+3. []() - [Передача аргументов фрагмента в ViewModel](https://www.youtube.com/watch?v=EQDSNYjtDBU)
+4. []() - [Activity Result API (запрос разрешений и запуск Activity)](https://www.youtube.com/watch?v=25LUF342XMU)
+5. []() - [Добавление иконок в PopupMenu](https://www.youtube.com/watch?v=wR6AtxwKuEM&list=PLRmiL0mct8WnntEXpHpP9S5ewtjgWook_&index=5)
