@@ -3,6 +3,7 @@ package ua.amv0107.recyclerview.model
 import com.bumptech.glide.Glide.init
 import com.github.javafaker.Faker
 import java.util.*
+import kotlin.collections.ArrayList
 
 typealias UsersListener = (users: List<User>) -> Unit
 
@@ -34,6 +35,7 @@ class UsersService {
         val indexToDelete = users.indexOfFirst { it.id == user.id }
         if (indexToDelete != -1) // Если нашли пользователя
         {
+            users = ArrayList(users)
             users.removeAt(indexToDelete)// то удаляем по индексу
             notifyChanges()
         }
@@ -47,7 +49,17 @@ class UsersService {
         if (oldIndex == -1) return
         val newIndex = oldIndex + moveBy
         if (newIndex < 0 || newIndex >= users.size) return // Если выходим за границы списка то стоп
+        users = ArrayList(users)
         Collections.swap(users, oldIndex, newIndex) // Меняем элементы местами
+        notifyChanges()
+    }
+
+    fun fireUser(user: User){
+        val index = users.indexOfFirst { it.id == user.id }
+        if (index == -1) return
+        val updatedUser = users[index].copy(company = "")
+        users = ArrayList(users)
+        users[index] = updatedUser
         notifyChanges()
     }
 
