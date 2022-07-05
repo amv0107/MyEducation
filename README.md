@@ -17,7 +17,7 @@
 10. Не прошел - [CustomView2](/CustomView2) - [Создание своей View, часть 2 (создание View с нуля)](https://www.youtube.com/watch?v=e3VlpFr_J6I&list=PLRmiL0mct8WnodKkGLpBN0mfXIbAAX-Ux&index=19) 
 11. [RecyclerView](/RecyclerView) - [Основы RecyclerView](https://www.youtube.com/watch?v=WMVzidyoQag&list=PLRmiL0mct8WnodKkGLpBN0mfXIbAAX-Ux&index=20)
 12. [RecyclerView](/RecyclerView) - [Использование RecyclerView вместе с DiffUtil](https://www.youtube.com/watch?v=zFOlpuz9lqY&list=PLRmiL0mct8WnodKkGLpBN0mfXIbAAX-Ux&index=21)
-13. []() - []()
+13. []() - [Архитектура MVVM (Model-View-ViewModel)](https://www.youtube.com/watch?v=bCH12ycXPeo&list=PLRmiL0mct8WnodKkGLpBN0mfXIbAAX-Ux&index=22)
 14. []() - []()
 15. []() - []()
 16. []() - []()
