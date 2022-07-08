@@ -55,7 +55,7 @@ class MainActivity : AppCompatActivity() {
 
     override fun onDestroy() {
         super.onDestroy()
-        usersService.removeListener(usersListener)
+        usersService.removeListener(usersListener)  
     }
 
     private val usersListener: UsersListener = {
