@@ -9,17 +9,15 @@ import androidx.fragment.app.Fragment
 import androidx.fragment.app.viewModels
 import androidx.lifecycle.Observer
 import com.bumptech.glide.Glide
+import ua.amv0107.recyclerview2mvvm.App
 import ua.amv0107.recyclerview2mvvm.R
 import ua.amv0107.recyclerview2mvvm.databinding.FragmentUserDetailsBinding
 import ua.amv0107.recyclerview2mvvm.tasks.SuccessResult
 
 class UserDetailsFragment: Fragment() {
     private lateinit var binding: FragmentUserDetailsBinding
-    private val viewModel: UserDetailsViewModel by viewModels{ factory() }
-
-    override fun onCreate(savedInstanceState: Bundle?) {
-        super.onCreate(savedInstanceState)
-        viewModel.loadUser(requireArguments().getLong(ARG_USER_ID))
+    private val viewModel: UserDetailsViewModel by viewModelCreator {
+        UserDetailsViewModel(it.usersService, requireArguments().getLong(ARG_USER_ID))
     }
 
     override fun onCreateView(

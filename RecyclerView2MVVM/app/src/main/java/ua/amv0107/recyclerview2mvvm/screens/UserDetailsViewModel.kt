@@ -12,7 +12,8 @@ import ua.amv0107.recyclerview2mvvm.tasks.SuccessResult
 import ua.amv0107.recyclerview2mvvm.tasks.Result
 
 class UserDetailsViewModel(
-    private val usersService: UsersService
+    private val usersService: UsersService,
+    private val userId: Long
 ) : BaseViewModel() {
     private val _state = MutableLiveData<State>()
     val state: LiveData<State> = _state
@@ -30,20 +31,7 @@ class UserDetailsViewModel(
             userDetailsResult = EmptyResult(),
             deletingInProcess = false
         )
-    }
-
-    fun loadUser(userId: Long) {
-        if (currentState.userDetailsResult is SuccessResult) return
-        _state.value = currentState.copy(userDetailsResult = PendingResult())
-        usersService.getById(userId)
-            .onSuccess {
-                _state.value = currentState.copy(userDetailsResult = SuccessResult(it))
-            }
-            .onError {
-                _actionShowToast.value = Event(R.string.cant_load_user_details)
-                _actionGoBack.value = Event(Unit)
-            }
-            .autoCancel()
+        loadUser()
     }
 
     fun deleteUser() {
@@ -58,6 +46,20 @@ class UserDetailsViewModel(
             .onError {
                 _state.value = currentState.copy(deletingInProcess = false)
                 _actionShowToast.value = Event(R.string.cant_delete_user)
+            }
+            .autoCancel()
+    }
+
+    private fun loadUser() {
+        if (currentState.userDetailsResult is SuccessResult) return
+        _state.value = currentState.copy(userDetailsResult = PendingResult())
+        usersService.getById(userId)
+            .onSuccess {
+                _state.value = currentState.copy(userDetailsResult = SuccessResult(it))
+            }
+            .onError {
+                _actionShowToast.value = Event(R.string.cant_load_user_details)
+                _actionGoBack.value = Event(Unit)
             }
             .autoCancel()
     }
